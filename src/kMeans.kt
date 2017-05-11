@@ -70,6 +70,7 @@ class kMeans {
             for (i in lastCentroids.indices) {
                 distance += Point.distance(lastCentroids[i], currentCentroids[i])
             }
+
             println("#################")
             println("Iteration: " + iteration)
             println("Centroid distances: " + distance)
