@@ -25,11 +25,11 @@ class Cluster//Creates a new Cluster
     fun plotCluster() {
         println("[Cluster: $id]")
         println("[Centroid: $centroid]")
-        println("[Points: \n")
+        println("[Points:")
         for (p in points) {
             println(p)
         }
-        println("]")
+        println("] \n\n\n")
     }
 
 }

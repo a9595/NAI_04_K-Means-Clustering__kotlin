@@ -7,9 +7,9 @@ import java.util.ArrayList
 class kMeans {
 
     //Number of Clusters. This metric should be related to the number of points
-    private val NUM_CLUSTERS = 3
+    private val NUM_CLUSTERS = 4
     //Number of Points
-    private val NUM_POINTS = 15
+    private val NUM_POINTS = 60
 
     private var points: List<Point>? = null
     private val clusters: MutableList<Cluster>
